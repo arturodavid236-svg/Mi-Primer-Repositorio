@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', 'Segoe UI', Roboto, sans-serif;
+    background-color: #001f39;      
+    color: #001f39;                
+    line-height: 1.6;
+    padding: 0 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.externo-nas {
+    background: #001f39;
+    color:#ffffff;          
+    padding: 2rem 2rem 1.8rem;
+    margin: 2rem 0;
+    border-radius: 28px 8px 28px 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    border: 3px solid #d97f00;
+    transition: all 0.2s ease;
+}
+
+.externo-nas h2 {
+    color: #1f3a4b;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    border-bottom: 4px solid #ffb347;
+    padding-bottom: 0.4rem;
+    display: inline-block;
+}
+
+.externo-nas p {
+    color: #1e2a36;
+    font-size: 1.08rem;
+    margin: 0.8rem 0 1.4rem;
+}
+
+.grid-androids {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    justify-content: center;
+    margin: 1.8rem 0 1rem;
+}
+
+.card-android {
+    background: #f4f9ff; 
+    padding: 1.4rem 1.2rem;
+    border-radius: 24px;
+    flex: 1 1 160px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+    border: 3px solid #d97f00;
+    transition: 0.15s;
+}
+
+.card-android:hover {
+    background: #e3edf7;
+    border-color: #3a6b8f;
+    transform: translateY(-4px);
+}
+
+.icono {
+    font-size: 2.8rem;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.card-android h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f1f2b;
+    margin: 0.2rem 0 0.1rem;
+}
+
+.card-android p {
+    font-size: 0.9rem;
+    color: #2f4a5e;
+    margin: 0.2rem 0 0.6rem;
+}
+
+.etiqueta {
+    background: #2b3a4a;
+    color: #f0f7fa;
+    padding: 0.3rem 0.9rem;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    display: inline-block;
+}
+
+.nota-externa {
+    background: #e6edf3;
+    padding: 0.8rem 1.4rem;
+    border-radius: 40px;
+    font-size: 0.95rem;
+    color: #1d2c39;
+    border: 1px solid #b8cdde;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.nota-externa code {
+    background: #1f2e3b;
+    color: #f5f9fc;
+    padding: 0.1rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+}
+
+main {
+    margin: 1.5rem 0;
+}
+
+code {
+    background: #1f2e3b;
+    color: #f5f9fc;
+    padding: 0.1rem 0.5rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+    .internos-destacado {
+      background-color: #001f39;        
+      color: #f0f7fa;                  
+      padding: 1.2rem 2rem;
+      border-radius: 40px 8px 40px 8px;
+      font-weight: 600;
+      text-align: center;
+      max-width: 600px;
+      margin: 2rem auto;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      border-left: 6px solid #d97f00;  
+    }
+
+    .internos-destacado span {
+      background-color: #ffb347;
+      color: #1e2a36;
+      padding: 0.2rem 0.8rem;
+      border-radius: 30px;
+      font-weight: 700;
+    }
+
+    .parrafo-interno {
+      background-color: #e6edf3;
+      color: #1e2a36;
+      padding: 1.2rem;
+      border-left: 8px solid #0092fb;
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
